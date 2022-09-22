@@ -1,3 +1,4 @@
 *.ino linguist-language=c
 *.XAML linguist-language=XAML
+*.XAML.cs linguist-language=XAML
 *.sln linguist-language=C#
