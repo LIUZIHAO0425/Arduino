@@ -1,0 +1,40 @@
+﻿<Window x:Class="controller_Arduino.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEST"
+        mc:Ignorable="d"
+        Title="Controller For Blindpad" Height="432" Width="703">
+    <Grid Margin="0,0,0,-15">
+        <Button x:Name="straight" Content="straight" HorizontalAlignment="Left" Margin="465,123,0,0" VerticalAlignment="Top" Width="72" Height="34" Click="straight_Click"/>
+        <Button x:Name="left" Content="left" HorizontalAlignment="Left" Margin="552,65,0,0" VerticalAlignment="Top" Width="72" Height="38" Click="lift_Click"/>
+        <Button x:Name="right" Content="right" HorizontalAlignment="Left" Margin="465,65,0,0" VerticalAlignment="Top" Width="72" Height="38" Click="right_Click"/>
+        <TextBlock x:Name="status" HorizontalAlignment="Left" Margin="574,354,0,0" TextWrapping="Wrap" Text="Disconnected" VerticalAlignment="Top" Height="29" Width="94"/>
+        <TextBox x:Name="comportno" HorizontalAlignment="Left" Height="23" Margin="561,310,0,0" TextWrapping="Wrap" Text="COM4" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Connect" Content="Connect" HorizontalAlignment="Left" Margin="484,309,0,0" VerticalAlignment="Top" Width="70" Height="24" Click="Connect_Click"/>
+        <Button x:Name="Disconnect" Content="Disconnect" HorizontalAlignment="Left" Margin="483,350,0,0" VerticalAlignment="Top" Width="71" Height="24" Click="Disconnect_Click"/>
+        <Button x:Name="back" Content="back" HorizontalAlignment="Left" Margin="552,123,0,0" VerticalAlignment="Top" Width="72" Height="34" Click="back_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="465,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31"><Run Language="zh-cn" Text="Image"/><LineBreak/><Run Language="zh-cn"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="33,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="4"/><Run Text="*"/><Run Language="zh-cn" Text="4"/><Run Text=" Test"/></TextBlock>
+        <Button x:Name="TEST1" Content="1" HorizontalAlignment="Left" Margin="33,65,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST1_Click"/>
+        <Button x:Name="TEST2" Content="2" HorizontalAlignment="Left" Margin="95,65,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST2_Click"/>
+        <Button x:Name="TEST3" Content="3" HorizontalAlignment="Left" Margin="158,65,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST3_Click"/>
+        <Button x:Name="TEST4" Content="4" HorizontalAlignment="Left" Margin="220,65,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST4_Click"/>
+        <Button x:Name="TEST5" Content="5" HorizontalAlignment="Left" Margin="33,123,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST5_Click"/>
+        <Button x:Name="TEST6" Content="6" HorizontalAlignment="Left" Margin="95,123,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST6_Click"/>
+        <Button x:Name="TEST7" Content="7" HorizontalAlignment="Left" Margin="158,123,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST7_Click"/>
+        <Button x:Name="TEST8" Content="8" HorizontalAlignment="Left" Margin="220,123,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST8_Click"/>
+        <Button x:Name="TEST9" Content="9" HorizontalAlignment="Left" Margin="33,178,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST9_Click"/>
+        <Button x:Name="TEST10" Content="10" HorizontalAlignment="Left" Margin="95,178,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST10_Click"/>
+        <Button x:Name="TEST11" Content="11" HorizontalAlignment="Left" Margin="158,178,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST11_Click"/>
+        <Button x:Name="TEST12" Content="12" HorizontalAlignment="Left" Margin="220,178,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST12_Click"/>
+        <Button x:Name="TEST13" Content="13" HorizontalAlignment="Left" Margin="33,237,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST13_Click"/>
+        <Button x:Name="TEST14" Content="14" HorizontalAlignment="Left" Margin="95,237,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST14_Click"/>
+        <Button x:Name="TEST15" Content="15" HorizontalAlignment="Left" Margin="158,237,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST15_Click"/>
+        <Button x:Name="TEST16" Content="16" HorizontalAlignment="Left" Margin="220,237,0,0" VerticalAlignment="Top" Width="40" Height="38" Click="TEST16_Click"/>
+    </Grid>
+</Window>
+    
+
+ 
