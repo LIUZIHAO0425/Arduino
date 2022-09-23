@@ -1,3 +1,5 @@
+# Compact Vibrotactile Display for Conveying Graphical Information to Visually Impaired Individuals
+Mainly divided into two parts: microcontroller system design, GUI module design
 
 # Arduino
 Tactile display control using GUI (WPF) and the serial communication of Arduino
